@@ -6,8 +6,8 @@ const logoutController = require("../controllers/logout");
 // Set default API response
 router.get("/api-status", function(req, res) {
   res.json({
-    status: "API Its Working",
-    message: "Welcome to Nissan Customer Portal!"
+    message: "API Its Working",
+    status: "true"
   });
 });
 
