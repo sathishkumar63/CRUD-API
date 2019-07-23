@@ -36,7 +36,7 @@ app.get("/", (req, res, next) =>
 );
 
 // Use Api routes in the App
-app.use("/nrfsi/nissan/dlp/customer", apiroutes); //using routes specified externally
+app.use("/customer", apiroutes); //using routes specified externally
 
 // use JWT auth to secure the api, the token can be passed in the authorization header or querystring
 app.use(
