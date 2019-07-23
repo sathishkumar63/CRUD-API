@@ -1,0 +1,5 @@
+{
+    "connectionString": "mongodb+srv://sathishkumar_63:Welcome@cluster0-vlse4.mongodb.net/test?retryWrites=true",
+    "apiUrl": "http://localhost:3000",
+    "secret": "Nissan_Motors@2019"
+}
